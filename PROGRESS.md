@@ -26,7 +26,7 @@ _Last updated: 2026-06-24 — Steps 0–12 complete: brand grounded in real Medi
 | 4 | **CLAUDE.md** — project instructions | ✅ | Created with context-loading + draft routing (routing finalized in Step 12) |
 | 5 | **Install official skills** — Anthropic prebuilt skills pack | ⏸️ | done in-app via `/plugin` (pptx/docs) — referenced by skills |
 | 6 | **Skill 1 — Branded Deck** (reference-based) | ✅ | `skills/branded-deck/` — needs a `.pptx` template to fully match |
-| 7 | **Skill 2 — Social Creative Designer** (MCP) | ⬜ | needs image-gen MCP — sequenced last |
+| 7 | **Skill 2 — Social Creative Designer** (MCP) | 🔄 | `.mcp.json` wired (nano-banana/Gemini); needs `GEMINI_API_KEY` to activate |
 | 8 | **Skills 3–12** — remaining library | ✅ | all 12 skills built in `marketing/skills/` |
 | 9 | **Agent 1 — Data Analyst** | ✅ | `marketing/agents/data-analyst.md` |
 | 10 | **Agent 2 — Content Creator** | ✅ | `marketing/agents/content-creator.md` |
@@ -96,6 +96,17 @@ First end-to-end campaign run by the team (Retail / Loss Prevention), one theme 
 
 All proof points/stats flagged `[confirm]` pending verified i3 figures. Next: lead magnet,
 social creatives (needs image MCP), post-launch report/dashboard (needs data).
+
+## Follow-ups status (post-merge)
+- **PR:** all build work merged to `main` by the user (PRs #1–#3). ✅
+- **Lock `[confirm]` facts:** ✅ product facts verified from i3International.com and rewritten
+  (`product-offerings.md` — M-series are **cameras**, SRX-Pro VMS, SOC 2 CMS, NDAA hardware,
+  64-ch NVRs). ⏳ **Still needed from i3:** a real **customer result stat** (shrink %, ROI…)
+  to replace the campaign `[confirm]` proof points.
+- **Image gen:** ✅ `.mcp.json` wired for `nano-banana` (Gemini) + `.env.example` + setup SOP.
+  ⏳ **Still needed:** a `GEMINI_API_KEY`, then `/mcp` to connect.
+- **Deck template:** ⏳ `i3 branded deck.pptx` was **not** committed/pushed — not in the repo,
+  so it can't be analyzed yet. Please `git add` + push it (or add via the web UI and commit).
 
 ## Changelog
 - **2026-06-24** — Step 0 done: studied transcript, created GUIDE.md + PROGRESS.md, defined target architecture (5 agents / 12 skills) and ordered build checklist.
