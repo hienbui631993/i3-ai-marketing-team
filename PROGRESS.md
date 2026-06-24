@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=yLXLHnD4fco
 
 **Status legend:** ✅ done · 🔄 in progress · ⬜ not started · ⏸️ optional / deferred
 
-_Last updated: 2026-06-24 — Step 0 complete._
+_Last updated: 2026-06-24 — Steps 0–3 complete (basic build, brand context drafted)._
 
 ---
 
@@ -20,10 +20,10 @@ _Last updated: 2026-06-24 — Step 0 complete._
 | # | Phase | Status | Notes |
 |---|-------|--------|-------|
 | 0 | **Preparation** — learn transcript, list process, create PROGRESS.md + GUIDE.md | ✅ | Transcript studied; GUIDE.md + PROGRESS.md created |
-| 1 | **Map marketing function** — list i3's weekly tasks; confirm skill/agent map | ⬜ | Needs i3 brand input (see "Open questions") |
-| 2 | **Folder setup** — `marketing/` system + working folders | ⬜ | |
-| 3 | **Load context** — brand voice, style guide, products, strategy | ⬜ | The "brand brain" |
-| 4 | **CLAUDE.md** — project instructions | ⬜ | Keep updating — not one-off |
+| 1 | **Map marketing function** — list i3's weekly tasks; confirm skill/agent map | ✅ | Basic set mapped → `marketing/context/marketing-function-map.md` (confirm) |
+| 2 | **Folder setup** — `marketing/` system + working folders | ✅ | Full `marketing/` tree scaffolded |
+| 3 | **Load context** — brand voice, style guide, products, strategy | ✅ | 4 DRAFT context files written (need i3 review of `[confirm]` items) |
+| 4 | **CLAUDE.md** — project instructions | ✅ | Created with context-loading + draft routing (routing finalized in Step 12) |
 | 5 | **Install official skills** — Anthropic prebuilt skills pack | ⬜ | e.g. document / PowerPoint skills |
 | 6 | **Skill 1 — Branded Deck** (reference-based) | ⬜ | template → analyze → extend PPT skill |
 | 7 | **Skill 2 — Social Creative Designer** (MCP) | ⬜ | needs `.mcp.json` + image-gen MCP |
@@ -70,13 +70,15 @@ _Last updated: 2026-06-24 — Step 0 complete._
 ---
 
 ## Open questions / inputs needed from i3 International
-- [ ] Confirm i3's actual weekly marketing tasks (drives the final skill list — Step 1).
-- [ ] Provide brand assets for `context/`: brand voice, style guide, product offerings, marketing strategy.
-- [ ] Provide a **branded deck template** (for Skill 1, reference-based method).
-- [ ] Provide **social creative examples** + which image-gen MCP/API to use (for Skill 2).
+- [ ] **Review the DRAFT context files** in `marketing/context/` — fix every `[confirm]` item
+      (real positioning, verticals, product names, KPIs).
+- [ ] Provide the **brand kit** — official colors (hex), fonts, logo files → updates `style-guide.md`.
+- [ ] Provide a **branded deck template** → `marketing/templates/branded-deck/` (for Branded Deck skill).
+- [ ] Provide **social creative examples** + which image-gen MCP/API to use → for Social Creative skill.
 - [ ] Decide whether to wire up the optional **Notion** board and **remote control**.
 
 ---
 
 ## Changelog
 - **2026-06-24** — Step 0 done: studied transcript, created GUIDE.md + PROGRESS.md, defined target architecture (5 agents / 12 skills) and ordered build checklist.
+- **2026-06-24** — Steps 1–3 done (basic build): mapped the basic weekly marketing function (`marketing-function-map.md`), scaffolded the full `marketing/` folder tree, and wrote 4 DRAFT brand-context files (brand voice, style guide, product offerings, marketing strategy). Next: CLAUDE.md (Step 4).
