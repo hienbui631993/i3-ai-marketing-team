@@ -10,17 +10,18 @@
 4. Nurture existing customers toward expansion (more sites, more analytics).
 
 ## Positioning
-i3 International = **intelligent video surveillance that doubles as business
-intelligence** — protect assets *and* improve operations, across every site,
-with reliability and real support. Differentiator vs. commodity camera vendors:
-**analytics + multi-site management + support**, not just hardware. `[confirm]`
+i3 International = **affordable, integrated, cloud-based AI** for surveillance **and**
+business insights — enhance safety, security, operational efficiency, and customer
+engagement across every site. Tagline: *"Affordable Integrated AI Solutions."*
+Differentiator vs. commodity camera vendors: **affordable AI analytics + cloud +
+decades of trusted results + family-grade service**, not just hardware.
 
-## Target segments & priority
-1. **Retail / LP** (primary) — shrink reduction, POS exception, store analytics.
-2. **Cannabis / dispensary** — compliance-driven surveillance.
-3. **Multi-site enterprise** — centralized management.
-4. **Integrators / partners** — enablement content.
-`[confirm priority order]`
+## Target segments & priority `[confirm priority order]`
+1. **Retail / loss prevention** (primary) — Heat Mapping, Smart-ER exception reporting, shrink reduction.
+2. **QSR (quick-service restaurants)** — Velocity drive-thru timer, speed of service.
+3. **Schools / education** — safety & monitoring (warmer brand expression).
+4. **Multi-site enterprise** — centralized cloud management.
+5. **Integrators / partners** — enablement content.
 
 ## Funnel & content mapping
 | Stage | Goal | Typical assets |

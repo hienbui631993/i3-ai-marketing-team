@@ -9,12 +9,20 @@ one-off — video @ 3:08).
 ---
 
 ## What this project is
-A full AI marketing team for **i3 International** — a B2B intelligent video
-surveillance / security-tech brand. Agents that **research, write, analyze, and
-design**, sharing a common set of skills, all on-brand.
+A full AI marketing team for **i3 International** — a leader in **affordable,
+integrated, cloud-based AI** surveillance + business-insights solutions. Agents
+that **research, write, analyze, and design**, sharing a common set of skills, all on-brand.
 
 Target shape: **5 agents · 12 skills** (see GUIDE §2). Currently building the
 **basic** core first.
+
+### Brand snapshot (from the official i3 Brand Kit)
+- **Tagline:** *Affordable Integrated AI Solutions*
+- **Promise:** "We're not just building technology. We're building trust, one solution at a time."
+- **Tone pillars:** Inventive · Trustworthy · Fearless · Driven ("we speak with purpose")
+- **Colors:** Brand Blue `#00588F`, Dark Blue `#002447`; expression: Pink `#DF1E71`, Green `#00A661`, Yellow `#FFC107`
+- **Fonts:** Helvetica Neue (primary); Gitlab Sans / Barlow (secondary for Schools/QSR/Retail)
+- **Brand assets:** [`/i3 Media Kit/`](./i3%20Media%20Kit/) — logos, brand kit PDF, product & solution images. **Use these as the source of truth.**
 
 ---
 
