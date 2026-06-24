@@ -24,10 +24,10 @@ _Last updated: 2026-06-24 — Steps 0–3 complete (basic build, brand context d
 | 2 | **Folder setup** — `marketing/` system + working folders | ✅ | Full `marketing/` tree scaffolded |
 | 3 | **Load context** — brand voice, style guide, products, strategy | ✅ | 4 DRAFT context files written (need i3 review of `[confirm]` items) |
 | 4 | **CLAUDE.md** — project instructions | ✅ | Created with context-loading + draft routing (routing finalized in Step 12) |
-| 5 | **Install official skills** — Anthropic prebuilt skills pack | ⬜ | e.g. document / PowerPoint skills |
-| 6 | **Skill 1 — Branded Deck** (reference-based) | ⬜ | template → analyze → extend PPT skill |
-| 7 | **Skill 2 — Social Creative Designer** (MCP) | ⬜ | needs `.mcp.json` + image-gen MCP |
-| 8 | **Skills 3–12** — remaining library | ⬜ | see skills tracker below |
+| 5 | **Install official skills** — Anthropic prebuilt skills pack | ⏸️ | done in-app via `/plugin` (pptx/docs) — referenced by skills |
+| 6 | **Skill 1 — Branded Deck** (reference-based) | ✅ | `skills/branded-deck/` — needs a `.pptx` template to fully match |
+| 7 | **Skill 2 — Social Creative Designer** (MCP) | ⬜ | needs image-gen MCP — sequenced last |
+| 8 | **Skills 3–12** — remaining library | 🔄 | 4/12 built (Blog, Social, Branded Deck, Campaign Brief) |
 | 9 | **Agent 1 — Data Analyst** | ⬜ | |
 | 10 | **Agent 2 — Content Creator** | ⬜ | |
 | 11 | **Agents 3–5** — Researcher, Designer, Strategist | ⬜ | |
@@ -44,16 +44,16 @@ _Last updated: 2026-06-24 — Steps 0–3 complete (basic build, brand context d
 |---|-------|-------------|------|--------|
 | 1 | Keyword Research | Market Researcher | tool-based | ⬜ |
 | 2 | Market & Audience Research | Market Researcher | research | ⬜ |
-| 3 | Blog Writer | Content Creator | content | ⬜ |
-| 4 | Social Post Copywriter | Content Creator | content | ⬜ |
+| 3 | Blog Writer | Content Creator | content | ✅ |
+| 4 | Social Post Copywriter | Content Creator | content | ✅ |
 | 5 | Lead Magnet (PDF guide) | Content Creator | content | ⬜ |
 | 6 | Email / Newsletter | Content Creator | content | ⬜ |
 | 7 | Social Creative Designer | Creative Designer | MCP image gen | ⬜ |
-| 8 | Branded Deck | Creative Designer | reference-based | ⬜ |
+| 8 | Branded Deck | Creative Designer | reference-based | ✅ |
 | 9 | Landing Page Builder | Creative Designer | build | ⬜ |
 | 10 | Campaign Report | Data Analyst | analysis | ⬜ |
 | 11 | Data Visualization / Dashboard | Data Analyst | analysis | ⬜ |
-| 12 | Campaign Brief / Strategy | Campaign Strategist | strategy | ⬜ |
+| 12 | Campaign Brief / Strategy | Campaign Strategist | strategy | ✅ |
 
 ---
 
