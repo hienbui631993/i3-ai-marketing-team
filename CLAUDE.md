@@ -66,17 +66,27 @@ Before producing ANY marketing output, read the brand brain in
 ---
 
 ## Team roster & routing
-> **To be completed in Step 12** once agents exist (GUIDE §4, step 12). Draft map below.
+The 5 agents live in [`marketing/agents/`](./marketing/agents/) and the 12 skills in
+[`marketing/skills/`](./marketing/skills/). Route work as follows:
 
-| If the task is about… | Route to agent | Likely skill(s) |
-|-----------------------|----------------|-----------------|
-| Keywords, audience, competitor, market trends | **Market Researcher** | Keyword Research, Market & Audience Research |
-| Blogs, social copy, emails, lead magnets | **Content Creator** | Blog Writer, Social Post Copywriter, Email/Newsletter, Lead Magnet |
-| Decks, social creatives, landing pages | **Creative Designer** | Branded Deck, Social Creative Designer, Landing Page Builder |
-| Reporting, dashboards, metrics | **Data Analyst** | Campaign Report, Data Visualization |
-| Campaign brief, positioning, orchestration | **Campaign Strategist** | Campaign Brief / Strategy |
+| If the task is about… | Route to agent | Skill(s) it uses |
+|-----------------------|----------------|------------------|
+| Keywords, audience, competitor, market trends | **[Market Researcher](./marketing/agents/market-researcher.md)** | Keyword Research, Market & Audience Research |
+| Blogs, social copy, emails, lead magnets | **[Content Creator](./marketing/agents/content-creator.md)** | Blog Writer, Social Post Copywriter, Email/Newsletter, Lead Magnet |
+| Decks, social creatives, landing pages | **[Creative Designer](./marketing/agents/creative-designer.md)** | Branded Deck, Social Creative Designer, Landing Page Builder |
+| Reporting, dashboards, metrics | **[Data Analyst](./marketing/agents/data-analyst.md)** | Campaign Report, Data Visualization |
+| Campaign brief, positioning, orchestration | **[Campaign Strategist](./marketing/agents/campaign-strategist.md)** | Campaign Brief / Strategy |
 
-*(Agents are not built yet — this table documents the intended routing.)*
+**Agent vs. skill decision (apply per step):**
+- **Synthesis/judgment** (research, audience analysis, strategy, performance analysis) → **agent**.
+- **Executional/straightforward** (one blog, post, email, or deck from a clear brief) → **skill** directly.
+- **Complex multi-deliverable campaigns** → the **Campaign Strategist** leads: writes the brief,
+  then routes each deliverable and keeps everything on one theme.
+
+> **Note:** the `marketing/agents/*.md` files are the team's role definitions. To make them
+> invokable as Claude Code sub-agents (`@agent-name`), register them via `/agents` (or copy into
+> `.claude/agents/`). The **Social Creative Designer** skill also needs an image-gen MCP wired in
+> `.mcp.json` before it can render visuals (see that skill's SKILL.md).
 
 ---
 

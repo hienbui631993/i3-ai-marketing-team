@@ -1,7 +1,19 @@
-# Skills
+# Skills (12)
 
-One folder per skill (the team's shared playbook). Each skill packages a
-repeatable marketing workflow so Claude runs it the same way every time.
+The team's shared playbook — one folder per repeatable workflow, each a `SKILL.md`
+that loads the i3 brand brain first.
 
-Built in "basic first" order — see `../context/marketing-function-map.md`.
-Empty for now; skills land here in Steps 6–8 (see ../../GUIDE.md).
+| Skill | Owner agent |
+|-------|-------------|
+| keyword-research | Market Researcher |
+| market-audience-research | Market Researcher |
+| blog-writer | Content Creator |
+| social-post-copywriter | Content Creator |
+| email-newsletter | Content Creator |
+| lead-magnet | Content Creator |
+| branded-deck | Creative Designer |
+| landing-page-builder | Creative Designer |
+| social-creative-designer | Creative Designer (needs image-gen MCP) |
+| campaign-report | Data Analyst |
+| data-visualization | Data Analyst |
+| campaign-brief | Campaign Strategist |

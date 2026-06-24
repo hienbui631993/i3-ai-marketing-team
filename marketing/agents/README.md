@@ -1,7 +1,12 @@
-# Agents
+# Agents (5)
 
-One markdown file per agent (a focused specialist with its own role + skills).
-Created via the `/agents` command (video @ 8:44).
+Focused specialists, each owning a set of skills. To invoke as Claude Code
+sub-agents (`@agent-name`), register via `/agents` or copy into `.claude/agents/`.
 
-Planned (5): Market Researcher, Content Creator, Creative Designer,
-Data Analyst, Campaign Strategist. Empty for now; built in Steps 9–11.
+| Agent | Thinks in… | Skills |
+|-------|-----------|--------|
+| market-researcher | trends, audiences, keywords | Keyword Research, Market & Audience Research |
+| content-creator | stories & headlines | Blog, Social, Email, Lead Magnet |
+| creative-designer | visuals & brand look | Branded Deck, Landing Page, Social Creative |
+| data-analyst | numbers, charts, patterns | Campaign Report, Data Visualization |
+| campaign-strategist | positioning & orchestration | Campaign Brief / Strategy |
