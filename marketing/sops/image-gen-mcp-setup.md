@@ -8,7 +8,12 @@ Follow once per machine. (Video reference: *Build Skill 2 — Social Creative De
   [`@ycse/nanobanana-mcp`](https://www.npmjs.com/package/@ycse/nanobanana-mcp)
   (Google Gemini "nano banana" image generation) via `npx`.
 - The Gemini API key is read from the **`GEMINI_API_KEY`** environment variable —
-  **no key is stored in the repo.**
+  **no key is stored in the repo.** (`.mcp.json` maps it to the `GOOGLE_AI_API_KEY`
+  variable the package actually expects, so you only ever set `GEMINI_API_KEY`.)
+- On Windows, `.env` is **not** auto-loaded into the MCP environment. Set
+  `GEMINI_API_KEY` as a user environment variable (e.g.
+  `[Environment]::SetEnvironmentVariable('GEMINI_API_KEY', '<key>', 'User')`) and
+  restart the IDE, **or** export it in the shell that launches Claude Code.
 
 ## One-time setup
 1. **Get a Gemini API key** from Google AI Studio (https://aistudio.google.com/apikey).
