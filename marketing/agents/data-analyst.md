@@ -27,7 +27,7 @@ Load `marketing/context/marketing-strategy.md` (KPIs, channels, funnel) and
 - Validate data first; **never invent or fill in missing numbers** — note gaps.
 - Lead with top-line results vs. KPI/baseline, then channel breakdowns and trends.
 - Explain the **why**, then give actionable recommendations.
-- Use the brand palette (`#00588F`, `#002447` + accents) and Helvetica Neue in charts.
+- Use the brand palette (`#00588F`, `#0A1428` + accents) and Montserrat in charts.
 - Build dashboards as reusable, refreshable templates.
 - Save outputs to `marketing/working/reports/`.
 

@@ -10,22 +10,19 @@
   size is **embedded video** (several `.mp4`) and large hero images — it's a rich,
   motion-driven sales deck, not a plain slide doc.
 
-## ⚠️ Important: template style ≠ brand-kit defaults
-The deck applies its branding **directly on slides** (the master theme is the default
-Office theme). The on-slide styling diverges from the official Brand Kit:
+## ✅ Resolved: this deck IS the brand standard (decision 2026-06-24)
+The deck applies its branding **directly on slides** (master theme is default Office).
+Its styling was adopted as the **current brand direction** (overriding the Brand Kit PDF):
 
-| Element | This deck (template) | Brand Kit (`style-guide.md`) |
-|---------|----------------------|------------------------------|
-| Primary dark | **`#0A1428`** (near-black navy) | `#002447` i3 Dark Blue |
-| Accent | **`#FF007D`** (vivid magenta/pink) | `#DF1E71` i3 Pink |
-| Font | **Montserrat** (127 refs) | Helvetica Neue |
+| Element | Brand standard (from this deck) | (Former brand-kit value) |
+|---------|---------------------------------|--------------------------|
+| Primary dark | **`#0A1428`** (near-black navy) | ~~`#002447`~~ |
+| Accent | **`#FF007D`** (vivid magenta) | ~~`#DF1E71`~~ |
+| Font | **Montserrat** (127 refs) | ~~Helvetica Neue~~ |
 | Text on dark | White `#FFFFFF` | White |
 
-**Decision needed from i3:** for decks, follow the **template** exactly (reference-based
-method) or the **brand kit**? Until told otherwise, the skill **matches the template's
-look** (Montserrat, `#0A1428`, `#FF007D`) because that's the approved deck, and notes the
-brand-kit values as the official alternative. *(They're close cousins — same dark-navy +
-pink family — so the two are visually compatible.)*
+`style-guide.md` and `CLAUDE.md` have been updated to these values.
+**TODO:** update the official `i3 Brand Kit.pdf` to match (currently still shows the old values).
 
 ## Visual system
 - **Dark, cinematic base** (`#0A1428`) with white type and **magenta (`#FF007D`) accents**

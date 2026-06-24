@@ -1,33 +1,38 @@
 # Visual & Editorial Style Guide — i3 International
 
 > Used by the Creative Designer and content skills for on-brand output.
-> **Source: official i3 Brand Kit (Rev. 20260214)** — [`/i3 Media Kit/i3 Brand Kit.pdf`](../../i3%20Media%20Kit/i3%20Brand%20Kit.pdf).
 > Logos & assets live in [`/i3 Media Kit/`](../../i3%20Media%20Kit/).
+>
+> **⚠️ Brand update (2026-06-24):** per the approved **branded deck** (`i3 branded deck.pptx`),
+> the deck direction is the **current brand standard**. Three values now override the
+> Brand Kit PDF (Rev. 20260214): **font → Montserrat**, **dark → `#0A1428`**,
+> **pink → `#FF007D`**. The rest of the palette (Brand Blue, Green, Yellow) is unchanged.
+> **TODO:** update the official `i3 Brand Kit.pdf` to match, or reconfirm with brand owner.
 
-## Brand colors (official)
+## Brand colors
 
 ### Brand Identity Colors — *who we are* (logo, corporate, brand anchors)
-| Name | HEX | RGB | Pantone | Usage |
-|------|-----|-----|---------|-------|
-| **i3 Brand Blue** (brand-600) | `#00588F` | 0/88/143 | 7693 C | Primary logo color & brand identifiers. **Core brand tone.** |
-| **i3 Dark Blue** (brand-900) | `#002447` | 0/36/71 | 296 C | Hero backgrounds, logo support, strong brand anchors. **Premium tone.** |
+| Name | HEX | RGB | Usage |
+|------|-----|-----|-------|
+| **i3 Brand Blue** (brand-600) | `#00588F` | 0/88/143 | Primary logo color & brand identifiers. **Core brand tone.** (Pantone 7693 C) |
+| **i3 Dark** (brand-900) | `#0A1428` | 10/20/40 | **Primary dark** — hero/section backgrounds, deck base, strong anchors. *(Updated from `#002447`; near-black navy from the deck.)* |
 
-### Brand Expression Colors — *for marketing, storytelling & category differentiation* (not UI functional colors)
-| Name | HEX | RGB | Pantone |
-|------|-----|-----|---------|
-| **i3 Pink** | `#DF1E71` | 223/30/113 | 214 C |
-| **i3 Green** | `#00A661` | 0/166/97 | 3405 C |
-| **i3 Yellow** | `#FFC107` | 255/193/7 | 7549 C |
+### Brand Expression Colors — *for marketing, storytelling & accents*
+| Name | HEX | RGB |
+|------|-----|-----|
+| **i3 Pink/Magenta** | `#FF007D` | 255/0/125 *(updated from `#DF1E71`)* |
+| **i3 Green** | `#00A661` | 0/166/97 *(Pantone 3405 C)* |
+| **i3 Yellow** | `#FFC107` | 255/193/7 *(Pantone 7549 C)* |
 
-> Expression colors are for **gradients with brand colors, icons, infographics, and
-> accent tones** — emotion and flexibility. Don't use them as primary UI colors.
-> The brand kit shows a signature **blue→pink→yellow gradient** bar; use sparingly as a hero accent.
+> Expression colors are for **gradients, icons, infographics, and accent tones** — emotion
+> and flexibility. The deck pairs **dark `#0A1428` + magenta `#FF007D` + white** as its core look.
 
-## Typography (official)
-- **Primary font: Helvetica Neue** — modern, clear, professional. Use for **all primary
-  marketing materials, websites, and official documents.**
-- **Secondary fonts: Gitlab Sans** (and **Barlow**) — for a warmer, more approachable
-  feel when designing for verticals like **Schools, QSR, and Retail.** Pair with Helvetica Neue.
+## Typography
+- **Primary font: Montserrat** — used across the approved deck; bold for headlines/section
+  titles, regular for body. Use for primary marketing materials, decks, websites.
+  *(Updated from Helvetica Neue per the deck direction.)*
+- **Web fallback stack:** `"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif`.
+- **Secondary (warmer verticals — Schools, QSR, Retail):** Gitlab Sans / Barlow, per brand kit.
 - Hierarchy: bold headings, regular body, generous line height.
 
 ## Logo usage (official)
@@ -61,16 +66,16 @@ Assets in [`/i3 Media Kit/i3 Logo/`](../../i3%20Media%20Kit/i3%20Logo/). Full ru
 - Always include alt-text intent for images in web assets.
 
 ## Deck conventions (for Branded Deck skill)
-- Structure: title → agenda → problem → solution → proof → offer/CTA.
-- Brand Blue `#00588F` as primary; Dark Blue `#002447` for hero/section dividers;
-  expression colors only as chart/accent. Helvetica Neue throughout.
-- Logo on every slide (marketing logo with tagline), consistent margins, page numbers.
-- One idea per slide; charts use brand palette.
+- Follow the approved template + [`templates/branded-deck/ANALYSIS.md`](../templates/branded-deck/ANALYSIS.md).
+- **Dark `#0A1428` base, magenta `#FF007D` accents, white type, Montserrat** throughout;
+  16:9; full-bleed media; one idea per slide; bold/magenta the key phrases.
+- Reuse the deck's narrative flow (cover → about → core applications → capability areas →
+  per-vertical → partnership close). Logo (white) on the dark base.
 
 ## Social conventions
 - LinkedIn: fearless hook in line 1, insight body, soft CTA, 3–5 relevant hashtags.
-- Carousels: 1 idea per slide, big readable headline (Helvetica Neue), consistent i3 template,
-  blue/dark-blue base with a single expression-color accent.
+- Carousels: 1 idea per slide, big readable headline (Montserrat), consistent i3 template,
+  dark `#0A1428` base with a single accent (magenta `#FF007D` or brand blue).
 
 ---
 *The Branded Deck and Social Creative skills reference this file and the `/i3 Media Kit/` assets directly.*

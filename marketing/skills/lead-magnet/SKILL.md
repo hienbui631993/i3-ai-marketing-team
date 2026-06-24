@@ -12,8 +12,8 @@ Produce a valuable, on-brand downloadable that earns the email opt-in. Design st
 simple so the **content value** leads (per the GUIDE's lead-magnet note).
 
 ## Before writing — load context
-Read all of `marketing/context/`. Use brand colors (`#00588F`, `#002447`, accents)
-and Helvetica Neue per `style-guide.md`; logo from `/i3 Media Kit/i3 Logo/`.
+Read all of `marketing/context/`. Use brand colors (`#00588F`, `#0A1428`, accents)
+and Montserrat per `style-guide.md`; logo from `/i3 Media Kit/i3 Logo/`.
 
 ## Inputs to confirm
 - Format (guide, checklist, buyer's guide, ROI worksheet, report) · topic & vertical

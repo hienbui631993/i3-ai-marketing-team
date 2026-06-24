@@ -20,8 +20,8 @@ Target shape: **5 agents · 12 skills** (see GUIDE §2). Currently building the
 - **Tagline:** *Affordable Integrated AI Solutions*
 - **Promise:** "We're not just building technology. We're building trust, one solution at a time."
 - **Tone pillars:** Inventive · Trustworthy · Fearless · Driven ("we speak with purpose")
-- **Colors:** Brand Blue `#00588F`, Dark Blue `#002447`; expression: Pink `#DF1E71`, Green `#00A661`, Yellow `#FFC107`
-- **Fonts:** Helvetica Neue (primary); Gitlab Sans / Barlow (secondary for Schools/QSR/Retail)
+- **Colors:** Brand Blue `#00588F`, Dark `#0A1428`; expression: Magenta `#FF007D`, Green `#00A661`, Yellow `#FFC107` *(dark + pink updated 2026-06-24 to match the approved deck — see style-guide)*
+- **Fonts:** Montserrat (primary, per approved deck); Gitlab Sans / Barlow (secondary for Schools/QSR/Retail)
 - **Brand assets:** [`/i3 Media Kit/`](./i3%20Media%20Kit/) — logos, brand kit PDF, product & solution images. **Use these as the source of truth.**
 
 ---

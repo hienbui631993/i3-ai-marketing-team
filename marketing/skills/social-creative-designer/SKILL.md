@@ -30,8 +30,8 @@ Call the `nano-banana` MCP tools (search with ToolSearch: "nano banana image") t
 generate/edit images. Save results to `marketing/working/ads/`.
 
 ## Before designing — load context
-Read `marketing/context/style-guide.md` (colors `#00588F`/`#002447` + accents,
-Helvetica Neue, logo rules) and scan `templates/social-creatives/` for style.
+Read `marketing/context/style-guide.md` (colors `#00588F`/`#0A1428` + accents,
+Montserrat, logo rules) and scan `templates/social-creatives/` for style.
 
 ## Inputs to confirm
 - Goal & platform · single vs. carousel (and # slides) · campaign theme/copy source
@@ -42,7 +42,7 @@ Helvetica Neue, logo rules) and scan `templates/social-creatives/` for style.
 2. Write per-image generation prompts that bake in: i3 colors, clean modern look,
    subject matter (retail floor, drive-thru, dashboard/AI UI), and space for text.
 3. Generate via the image MCP; keep brand colors and a consistent template across a carousel.
-4. Composite headline text (Helvetica Neue) + logo per `style-guide.md` (white logo on dark).
+4. Composite headline text (Montserrat) + logo per `style-guide.md` (white logo on dark).
 5. Match the *vibe* of the library, don't copy a specific design.
 
 ## Output

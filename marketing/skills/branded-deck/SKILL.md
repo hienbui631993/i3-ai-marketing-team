@@ -14,9 +14,9 @@ template + brand kit, then generate slides that match exactly.
 ## References (study these first)
 1. **Brand kit & assets:** `marketing/context/style-guide.md` and the source files in
    `/i3 Media Kit/` (logos, colors, fonts).
-   - Colors: Brand Blue `#00588F`, Dark Blue `#002447`; accents Pink `#DF1E71`,
+   - Colors: Brand Blue `#00588F`, Dark `#0A1428`; accents Pink `#FF007D`,
      Green `#00A661`, Yellow `#FFC107`.
-   - Font: **Helvetica Neue** (use a close fallback like Arial/Helvetica if unavailable).
+   - Font: **Montserrat** (use a close fallback like Arial/Helvetica if unavailable).
    - Logo: marketing logo **with tagline** on slides; white logo on dark backgrounds.
      Files in `/i3 Media Kit/i3 Logo/`.
 2. **Deck template (analyzed):** the reference deck lives at
@@ -24,13 +24,11 @@ template + brand kit, then generate slides that match exactly.
    full analysis is in [`marketing/templates/branded-deck/ANALYSIS.md`](../../templates/branded-deck/ANALYSIS.md).
    **Read the analysis first** and follow the template exactly.
 
-### Template style (follow this for decks — supersedes brand-kit defaults)
-The approved deck applies branding on-slide and **diverges from the brand kit**:
-- **Font: Montserrat** (not Helvetica Neue).
+### Template style (this is the brand standard — adopted 2026-06-24)
+The approved deck's look is now the i3 brand direction (also reflected in `style-guide.md`):
+- **Font: Montserrat** (bold headlines, regular body).
 - **Primary dark: `#0A1428`** (near-black navy); **accent: `#FF007D`** (magenta); text white.
 - **16:9** (13.333in × 7.5in); dark, cinematic, full-bleed media; one idea per slide.
-- Brand-kit equivalents (`#002447` / `#DF1E71` / Helvetica Neue) are the official
-  alternative — see the `[confirm]` note in ANALYSIS.md. Until i3 says otherwise, **match the template.**
 
 ### Narrative flow to reuse (corporate/sales overview)
 Cover → About i3 (37+ yr, family-driven, 4 key areas) → "Core applications" divider →
@@ -66,7 +64,7 @@ Adapt the sections for product- or campaign-specific decks.
   reference method gets ~90% there; flag the last 10%.
 
 ## Quality check
-- [ ] Brand colors + Helvetica Neue applied; correct logo variant per background.
+- [ ] Brand colors + Montserrat applied; correct logo variant per background.
 - [ ] One idea per slide; consistent margins; logo + page number on each.
 - [ ] Matches `templates/branded-deck/` if present; else `[needs template]` noted.
 - [ ] No fabricated proof (`[confirm]`).
