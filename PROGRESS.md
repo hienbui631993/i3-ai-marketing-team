@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=yLXLHnD4fco
 
 **Status legend:** ✅ done · 🔄 in progress · ⬜ not started · ⏸️ optional / deferred
 
-_Last updated: 2026-06-24 — Steps 0–3 complete (basic build, brand context drafted)._
+_Last updated: 2026-06-24 — Steps 0–12 complete: brand grounded in real Media Kit, all 12 skills + 5 agents built, routing finalized. Remaining: orchestration test (13) + optional Notion/remote (14–15) + image-gen MCP for Social Creative._
 
 ---
 
@@ -27,12 +27,12 @@ _Last updated: 2026-06-24 — Steps 0–3 complete (basic build, brand context d
 | 5 | **Install official skills** — Anthropic prebuilt skills pack | ⏸️ | done in-app via `/plugin` (pptx/docs) — referenced by skills |
 | 6 | **Skill 1 — Branded Deck** (reference-based) | ✅ | `skills/branded-deck/` — needs a `.pptx` template to fully match |
 | 7 | **Skill 2 — Social Creative Designer** (MCP) | ⬜ | needs image-gen MCP — sequenced last |
-| 8 | **Skills 3–12** — remaining library | 🔄 | 4/12 built (Blog, Social, Branded Deck, Campaign Brief) |
-| 9 | **Agent 1 — Data Analyst** | ⬜ | |
-| 10 | **Agent 2 — Content Creator** | ⬜ | |
-| 11 | **Agents 3–5** — Researcher, Designer, Strategist | ⬜ | |
-| 12 | **Routing rules in CLAUDE.md** | ⬜ | when agent vs. skill |
-| 13 | **Orchestration test** — complex multi-deliverable brief | ⬜ | |
+| 8 | **Skills 3–12** — remaining library | ✅ | all 12 skills built in `marketing/skills/` |
+| 9 | **Agent 1 — Data Analyst** | ✅ | `marketing/agents/data-analyst.md` |
+| 10 | **Agent 2 — Content Creator** | ✅ | `marketing/agents/content-creator.md` |
+| 11 | **Agents 3–5** — Researcher, Designer, Strategist | ✅ | all in `marketing/agents/` |
+| 12 | **Routing rules in CLAUDE.md** | ✅ | roster + agent-vs-skill rules finalized |
+| 13 | **Orchestration test** — complex multi-deliverable brief | ⬜ | recommended next: run a full campaign |
 | 14 | **Notion task board** | ⏸️ | optional — needs Notion MCP |
 | 15 | **Remote control** | ⏸️ | optional — mobile driving |
 
@@ -42,17 +42,17 @@ _Last updated: 2026-06-24 — Steps 0–3 complete (basic build, brand context d
 
 | # | Skill | Owner agent | Type | Status |
 |---|-------|-------------|------|--------|
-| 1 | Keyword Research | Market Researcher | tool-based | ⬜ |
-| 2 | Market & Audience Research | Market Researcher | research | ⬜ |
+| 1 | Keyword Research | Market Researcher | tool-based | ✅ |
+| 2 | Market & Audience Research | Market Researcher | research | ✅ |
 | 3 | Blog Writer | Content Creator | content | ✅ |
 | 4 | Social Post Copywriter | Content Creator | content | ✅ |
-| 5 | Lead Magnet (PDF guide) | Content Creator | content | ⬜ |
-| 6 | Email / Newsletter | Content Creator | content | ⬜ |
-| 7 | Social Creative Designer | Creative Designer | MCP image gen | ⬜ |
+| 5 | Lead Magnet (PDF guide) | Content Creator | content | ✅ |
+| 6 | Email / Newsletter | Content Creator | content | ✅ |
+| 7 | Social Creative Designer | Creative Designer | MCP image gen | ✅* |
 | 8 | Branded Deck | Creative Designer | reference-based | ✅ |
-| 9 | Landing Page Builder | Creative Designer | build | ⬜ |
-| 10 | Campaign Report | Data Analyst | analysis | ⬜ |
-| 11 | Data Visualization / Dashboard | Data Analyst | analysis | ⬜ |
+| 9 | Landing Page Builder | Creative Designer | build | ✅ |
+| 10 | Campaign Report | Data Analyst | analysis | ✅ |
+| 11 | Data Visualization / Dashboard | Data Analyst | analysis | ✅ |
 | 12 | Campaign Brief / Strategy | Campaign Strategist | strategy | ✅ |
 
 ---
@@ -61,11 +61,16 @@ _Last updated: 2026-06-24 — Steps 0–3 complete (basic build, brand context d
 
 | # | Agent | Thinks in… | Status |
 |---|-------|-----------|--------|
-| 1 | Market Researcher | trends, audiences, keywords | ⬜ |
-| 2 | Content Creator | stories & headlines | ⬜ |
-| 3 | Creative Designer | visuals & brand look | ⬜ |
-| 4 | Data Analyst | numbers, charts, patterns | ⬜ |
-| 5 | Campaign Strategist | positioning & orchestration | ⬜ |
+| 1 | Market Researcher | trends, audiences, keywords | ✅ |
+| 2 | Content Creator | stories & headlines | ✅ |
+| 3 | Creative Designer | visuals & brand look | ✅ |
+| 4 | Data Analyst | numbers, charts, patterns | ✅ |
+| 5 | Campaign Strategist | positioning & orchestration | ✅ |
+
+> **\*** Social Creative Designer skill is written and ready, but needs an
+> **image-generation MCP** connected (`.mcp.json`) before it can render visuals.
+> Agent `.md` files define the roles; register via `/agents` (or copy to
+> `.claude/agents/`) to invoke them as `@agent-name` sub-agents.
 
 ---
 
