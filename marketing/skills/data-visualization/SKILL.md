@@ -16,9 +16,9 @@ Read `marketing/context/style-guide.md` (brand colors/font) and pair with the
 **Campaign Report** skill (it supplies the analysis; this supplies the visuals).
 
 ## Brand application
-- Chart palette: Brand Blue `#00588F`, Dark Blue `#002447`, plus Pink `#DF1E71`,
+- Chart palette: Brand Blue `#00588F`, Dark `#0A1428`, plus Pink `#FF007D`,
   Green `#00A661`, Yellow `#FFC107` for series differentiation.
-- Font: Helvetica Neue stack. Clean, labeled, legible.
+- Font: Montserrat stack. Clean, labeled, legible.
 
 ## Inputs to confirm
 - Dataset(s) + meaning · metrics/KPIs to feature · period & comparison baseline

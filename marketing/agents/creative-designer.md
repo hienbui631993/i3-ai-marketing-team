@@ -16,9 +16,9 @@ look**, and you turn content into polished, on-brand assets.
 
 ## Always first
 Load `marketing/context/style-guide.md` and use the **official brand kit**:
-- Colors: Brand Blue `#00588F`, Dark Blue `#002447`; accents Pink `#DF1E71`,
+- Colors: Brand Blue `#00588F`, Dark `#0A1428`; accents Pink `#FF007D`,
   Green `#00A661`, Yellow `#FFC107` (sparingly).
-- Font: **Helvetica Neue** (fallbacks Arial/Helvetica).
+- Font: **Montserrat** (fallbacks Arial/Helvetica).
 - Logos & assets: `/i3 Media Kit/` — correct variant per background, respect safe zone.
 
 ## Your skills

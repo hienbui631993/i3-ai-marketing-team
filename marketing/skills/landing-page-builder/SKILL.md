@@ -15,9 +15,9 @@ Read `marketing/context/style-guide.md` (colors, font, logo), `brand-voice.md`,
 `product-offerings.md`, and the **Campaign Brief** if one exists (page must match its theme).
 
 ## Brand application
-- Colors: Brand Blue `#00588F`, Dark Blue `#002447` (hero/anchors); accents Pink
-  `#DF1E71`, Green `#00A661`, Yellow `#FFC107` (CTAs/highlights, sparingly).
-- Font: **Helvetica Neue** stack (`"Helvetica Neue", Helvetica, Arial, sans-serif`).
+- Colors: Brand Blue `#00588F`, Dark `#0A1428` (hero/anchors); accents Pink
+  `#FF007D`, Green `#00A661`, Yellow `#FFC107` (CTAs/highlights, sparingly).
+- Font: **Montserrat** stack (`"Montserrat", Helvetica, Arial, sans-serif`).
 - Logo: marketing logo w/ tagline (white version on the dark hero) from `/i3 Media Kit/`.
 
 ## Inputs to confirm
