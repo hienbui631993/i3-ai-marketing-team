@@ -105,8 +105,11 @@ social creatives (needs image MCP), post-launch report/dashboard (needs data).
   to replace the campaign `[confirm]` proof points.
 - **Image gen:** ✅ `.mcp.json` wired for `nano-banana` (Gemini) + `.env.example` + setup SOP.
   ⏳ **Still needed:** a `GEMINI_API_KEY`, then `/mcp` to connect.
-- **Deck template:** ⏳ `i3 branded deck.pptx` was **not** committed/pushed — not in the repo,
-  so it can't be analyzed yet. Please `git add` + push it (or add via the web UI and commit).
+- **Deck template:** ✅ `i3 branded deck.pptx` is in the repo (Git LFS, ~327 MB) and
+  **analyzed** → `marketing/templates/branded-deck/ANALYSIS.md`; Branded Deck skill now
+  follows it. ⚠️ **Decision needed:** the deck uses **Montserrat / `#0A1428` / `#FF007D`**,
+  which diverges from the brand kit (Helvetica Neue / `#002447` / `#DF1E71`) — confirm which
+  wins for decks (skill currently matches the template).
 
 ## Changelog
 - **2026-06-24** — Step 0 done: studied transcript, created GUIDE.md + PROGRESS.md, defined target architecture (5 agents / 12 skills) and ordered build checklist.
