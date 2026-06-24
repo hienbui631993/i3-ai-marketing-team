@@ -14,14 +14,14 @@ external image-generation model via MCP.
 ## ⚠️ Setup dependency (one-time)
 This skill needs the **`nano-banana` image-generation MCP** (Google Gemini) connected.
 It is **already declared** in the project `.mcp.json`; you only need to supply the key:
-1. Set `GEMINI_API_KEY` (via `.env` from `.env.example`, or your environment).
+1. Set `GOOGLE_AI_API_KEY` (via `.env` from `.env.example`, or your environment).
 2. Restart the client and run `/mcp` — confirm `nano-banana` is connected.
 3. Build/refresh the **style library** in `marketing/templates/social-creatives/`
    (on-brand examples = *inspiration*, not exact copies) — quality of references
    drives output quality.
 
 Full steps: [`marketing/sops/image-gen-mcp-setup.md`](../../sops/image-gen-mcp-setup.md).
-If `GEMINI_API_KEY` is unset / `/mcp` doesn't show `nano-banana`, treat this skill as
+If `GOOGLE_AI_API_KEY` is unset / `/mcp` doesn't show `nano-banana`, treat this skill as
 **`[blocked: needs image MCP]`** — produce the copy/layout spec via Social Post
 Copywriter and flag the visual step.
 

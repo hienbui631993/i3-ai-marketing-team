@@ -40,7 +40,7 @@ Before producing ANY marketing output, read the brand brain in
 > are pending i3 review — if one is relevant to a task, flag it rather than inventing facts.
 
 > **Image generation:** the `nano-banana` (Gemini) MCP is declared in `.mcp.json`;
-> set `GEMINI_API_KEY` to activate the Social Creative Designer skill
+> set `GOOGLE_AI_API_KEY` to activate the Social Creative Designer skill
 > (see [`marketing/sops/image-gen-mcp-setup.md`](./marketing/sops/image-gen-mcp-setup.md)).
 
 ---

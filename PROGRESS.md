@@ -26,7 +26,7 @@ _Last updated: 2026-06-24 — Steps 0–12 complete: brand grounded in real Medi
 | 4 | **CLAUDE.md** — project instructions | ✅ | Created with context-loading + draft routing (routing finalized in Step 12) |
 | 5 | **Install official skills** — Anthropic prebuilt skills pack | ⏸️ | done in-app via `/plugin` (pptx/docs) — referenced by skills |
 | 6 | **Skill 1 — Branded Deck** (reference-based) | ✅ | `skills/branded-deck/` — needs a `.pptx` template to fully match |
-| 7 | **Skill 2 — Social Creative Designer** (MCP) | 🔄 | `.mcp.json` wired (nano-banana/Gemini); needs `GEMINI_API_KEY` to activate |
+| 7 | **Skill 2 — Social Creative Designer** (MCP) | 🔄 | `.mcp.json` wired (nano-banana/Gemini); needs `GOOGLE_AI_API_KEY` to activate |
 | 8 | **Skills 3–12** — remaining library | ✅ | all 12 skills built in `marketing/skills/` |
 | 9 | **Agent 1 — Data Analyst** | ✅ | `marketing/agents/data-analyst.md` |
 | 10 | **Agent 2 — Content Creator** | ✅ | `marketing/agents/content-creator.md` |
@@ -104,7 +104,7 @@ social creatives (needs image MCP), post-launch report/dashboard (needs data).
   64-ch NVRs). ⏳ **Still needed from i3:** a real **customer result stat** (shrink %, ROI…)
   to replace the campaign `[confirm]` proof points.
 - **Image gen:** ✅ `.mcp.json` wired for `nano-banana` (Gemini) + `.env.example` + setup SOP.
-  ⏳ **Still needed:** a `GEMINI_API_KEY`, then `/mcp` to connect.
+  ⏳ **Still needed:** a `GOOGLE_AI_API_KEY`, then `/mcp` to connect.
 - **Deck template:** ✅ `i3 branded deck.pptx` analyzed → `ANALYSIS.md`; Branded Deck skill follows it.
 - **Brand direction decision (2026-06-24):** ✅ **"Deck is the new brand."** Adopted
   **Montserrat / dark `#0A1428` / magenta `#FF007D`** as the standard across context files,

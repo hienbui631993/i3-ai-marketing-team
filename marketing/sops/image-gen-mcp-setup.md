@@ -7,14 +7,16 @@ Follow once per machine. (Video reference: *Build Skill 2 — Social Creative De
 - **`.mcp.json`** (project root) declares a `nano-banana` MCP server that runs
   [`@ycse/nanobanana-mcp`](https://www.npmjs.com/package/@ycse/nanobanana-mcp)
   (Google Gemini "nano banana" image generation) via `npx`.
-- The Gemini API key is read from the **`GEMINI_API_KEY`** environment variable —
-  **no key is stored in the repo.**
+- The Google AI key is read from the **`GOOGLE_AI_API_KEY`** environment variable
+  (the name `@ycse/nanobanana-mcp` expects) — **no key is stored in the repo.**
 
 ## One-time setup
-1. **Get a Gemini API key** from Google AI Studio (https://aistudio.google.com/apikey).
+1. **Get a Google AI (Gemini) API key** from Google AI Studio (https://aistudio.google.com/apikey).
 2. **Provide the key** (pick one):
-   - Copy `.env.example` → `.env` and set `GEMINI_API_KEY=...` (`.env` is gitignored), **or**
-   - Export it in your shell / Claude Code environment: `export GEMINI_API_KEY=...`
+   - Copy `.env.example` → `.env` and set `GOOGLE_AI_API_KEY=...` (`.env` is gitignored), **or**
+   - Export it in your shell / Claude Code environment: `export GOOGLE_AI_API_KEY=...`
+   - **Remote/cloud sessions:** add `GOOGLE_AI_API_KEY` to the environment's secrets —
+     a key set only in your *local* Claude Code does **not** reach a remote cloud session.
 3. **Restart** Claude Code (or your IDE) so it reads `.mcp.json`.
 4. Run **`/mcp`** — you should see `nano-banana` listed as connected.
 5. (Optional) Approve the server when prompted.
