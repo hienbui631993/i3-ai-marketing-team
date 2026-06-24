@@ -35,8 +35,13 @@ Before producing ANY marketing output, read the brand brain in
 - [`marketing-strategy.md`](./marketing/context/marketing-strategy.md) — goals, funnel, channels
 - [`marketing-function-map.md`](./marketing/context/marketing-function-map.md) — weekly tasks → skills → agents
 
-> Several context files contain `[confirm]` placeholders pending i3 review. If a
-> placeholder is relevant to a task, flag it rather than inventing facts.
+> Product facts in `product-offerings.md` are verified against i3International.com.
+> Remaining `[confirm]` items (mainly customer-result stats and some model specs)
+> are pending i3 review — if one is relevant to a task, flag it rather than inventing facts.
+
+> **Image generation:** the `nano-banana` (Gemini) MCP is declared in `.mcp.json`;
+> set `GEMINI_API_KEY` to activate the Social Creative Designer skill
+> (see [`marketing/sops/image-gen-mcp-setup.md`](./marketing/sops/image-gen-mcp-setup.md)).
 
 ---
 

@@ -12,15 +12,22 @@ Generate on-brand social visuals that match i3's *vibe* (not copies) using an
 external image-generation model via MCP.
 
 ## ⚠️ Setup dependency (one-time)
-This skill needs an **image-generation MCP** connected (the GUIDE method uses a
-"nano banana" / Gemini-style model). To enable:
-1. Add a `.mcp.json` in the project root declaring the image-gen MCP server + API key.
-2. Restart the client and run `/mcp` to confirm it's connected.
+This skill needs the **`nano-banana` image-generation MCP** (Google Gemini) connected.
+It is **already declared** in the project `.mcp.json`; you only need to supply the key:
+1. Set `GEMINI_API_KEY` (via `.env` from `.env.example`, or your environment).
+2. Restart the client and run `/mcp` — confirm `nano-banana` is connected.
 3. Build/refresh the **style library** in `marketing/templates/social-creatives/`
    (on-brand examples = *inspiration*, not exact copies) — quality of references
-   drives quality of output.
-Until then, this skill is **`[blocked: needs image MCP]`** — produce the copy/layout
-spec via Social Post Copywriter and flag the visual step.
+   drives output quality.
+
+Full steps: [`marketing/sops/image-gen-mcp-setup.md`](../../sops/image-gen-mcp-setup.md).
+If `GEMINI_API_KEY` is unset / `/mcp` doesn't show `nano-banana`, treat this skill as
+**`[blocked: needs image MCP]`** — produce the copy/layout spec via Social Post
+Copywriter and flag the visual step.
+
+## Generate via the MCP
+Call the `nano-banana` MCP tools (search with ToolSearch: "nano banana image") to
+generate/edit images. Save results to `marketing/working/ads/`.
 
 ## Before designing — load context
 Read `marketing/context/style-guide.md` (colors `#00588F`/`#002447` + accents,
