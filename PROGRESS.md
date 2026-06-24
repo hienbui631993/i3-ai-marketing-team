@@ -32,7 +32,7 @@ _Last updated: 2026-06-24 — Steps 0–12 complete: brand grounded in real Medi
 | 10 | **Agent 2 — Content Creator** | ✅ | `marketing/agents/content-creator.md` |
 | 11 | **Agents 3–5** — Researcher, Designer, Strategist | ✅ | all in `marketing/agents/` |
 | 12 | **Routing rules in CLAUDE.md** | ✅ | roster + agent-vs-skill rules finalized |
-| 13 | **Orchestration test** — complex multi-deliverable brief | ⬜ | recommended next: run a full campaign |
+| 13 | **Orchestration test** — complex multi-deliverable brief | ✅ | "Stop Shrink Before It Walks Out" campaign — 5 deliverables in `marketing/working/` |
 | 14 | **Notion task board** | ⏸️ | optional — needs Notion MCP |
 | 15 | **Remote control** | ⏸️ | optional — mobile driving |
 
@@ -83,6 +83,19 @@ _Last updated: 2026-06-24 — Steps 0–12 complete: brand grounded in real Medi
 - [ ] Decide whether to wire up the optional **Notion** board and **remote control**.
 
 ---
+
+## Orchestration test — "Stop Shrink Before It Walks Out" (Step 13)
+First end-to-end campaign run by the team (Retail / Loss Prevention), one theme throughout:
+| Step | Skill / Agent | Output |
+|------|---------------|--------|
+| Research | Market Researcher | `working/reports/research-retail-shrink.md` |
+| Brief | Campaign Strategist | `working/reports/brief-stop-retail-shrink.md` |
+| Blog | Content Creator → Blog Writer | `working/content/blog-cut-retail-shrink-with-ai.md` |
+| Social | Content Creator → Social Post Copywriter | `working/content/social-stop-retail-shrink-linkedin.md` |
+| Landing page | Creative Designer → Landing Page Builder | `working/pages/stop-retail-shrink.html` |
+
+All proof points/stats flagged `[confirm]` pending verified i3 figures. Next: lead magnet,
+social creatives (needs image MCP), post-launch report/dashboard (needs data).
 
 ## Changelog
 - **2026-06-24** — Step 0 done: studied transcript, created GUIDE.md + PROGRESS.md, defined target architecture (5 agents / 12 skills) and ordered build checklist.
